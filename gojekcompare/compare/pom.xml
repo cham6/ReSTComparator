@@ -19,7 +19,6 @@
 	  <groupId>org.testng</groupId>
 	  <artifactId>testng</artifactId>
 	  <version>6.8</version>
-	  <scope>test</scope>
 	</dependency>
 	<dependency>
 	    <groupId>commons-io</groupId>
@@ -31,5 +30,11 @@
 	    <artifactId>guava</artifactId>
 	    <version>27.1-jre</version>
 	</dependency>
+	<dependency>
+	    <groupId>com.jayway.restassured</groupId>
+	    <artifactId>rest-assured</artifactId>
+	    <version>2.9.0</version>
+	</dependency>
+	
   </dependencies>
 </project>

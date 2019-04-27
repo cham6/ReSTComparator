@@ -25,5 +25,9 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/i340482/ariba/s444/roots/install/classes/commons-io-2.1.jar"/>
 	<classpathentry kind="lib" path="/Users/i340482/ariba/s444/roots/install/classes/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar"/>
+	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/jayway/restassured/xml-path/2.9.0/xml-path-2.9.0.jar"/>
+	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/jayway/restassured/rest-assured-common/2.9.0/rest-assured-common-2.9.0.jar"/>
+	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/jayway/restassured/json-path/2.9.0/json-path-2.9.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

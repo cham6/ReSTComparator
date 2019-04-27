@@ -5,8 +5,8 @@ import java.util.List;
 
 public interface IComparator {
 	
-	public boolean compare(String url1, String url2) ;
+	public Boolean compare(String url1, String url2) ;
 
-	public List<String[]> getURLs(File file1, File file2);
+	public List<List<String>> getURLs();
 	
 }
