@@ -29,5 +29,8 @@
 	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/jayway/restassured/xml-path/2.9.0/xml-path-2.9.0.jar"/>
 	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/jayway/restassured/rest-assured-common/2.9.0/rest-assured-common-2.9.0.jar"/>
 	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/jayway/restassured/json-path/2.9.0/json-path-2.9.0.jar"/>
+	<classpathentry kind="lib" path="/Users/i340482/Desktop/lib/testng-6.8.13.jar"/>
+	<classpathentry kind="lib" path="/Users/i340482/ariba/s444/roots/install/internal/classes/restito.jar"/>
+	<classpathentry kind="lib" path="/Users/i340482/ariba/s444/roots/install/internal/classes/grizzly-http-all-2.4.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

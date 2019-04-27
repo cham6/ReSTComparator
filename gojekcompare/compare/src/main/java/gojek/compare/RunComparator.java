@@ -3,7 +3,7 @@ package gojek.compare;
 import java.io.File;
 import java.util.List;
 
-public class Compare {
+public class RunComparator {
 	
 	//Method call : Main method to execute the comparator code
 	public static void main(String[] args) {

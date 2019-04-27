@@ -40,7 +40,7 @@ public class RESTComparator implements IComparator {
 		
 		try {
 			if((file1 == null) || (file2 == null)) {
-				System.out.println("Either or both of the given files are empty. "
+				System.out.println("Either or both of the given files are null. "
 						+ "Fix the configuration");
 				return null;
 			}
@@ -51,8 +51,8 @@ public class RESTComparator implements IComparator {
 				return null;
 			}
 			
-			List<String> file1URLs = new ArrayList();
-			List<String> file2URLs = new ArrayList();
+			List<String> file1URLs = new ArrayList<String>();
+			List<String> file2URLs = new ArrayList<String>();
 			
 			
 			for(int i=0; i<10; i++) {
@@ -64,7 +64,7 @@ public class RESTComparator implements IComparator {
 			}
 			
 			
-			List<List<String>> urlList = new ArrayList();
+			List<List<String>> urlList = new ArrayList<List<String>>();
 			urlList.add(file1URLs);
 			urlList.add(file2URLs);
 			return urlList;
