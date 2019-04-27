@@ -1,0 +1,116 @@
+2019-04-27 15:10:04,919 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-27 15:11:55,880 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/i340482/eclipse-workspace/gojekcompare/compare/pom.xml
+2019-04-27 15:11:56,685 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: gojek:compare:0.0.1-SNAPSHOT @ /Users/i340482/eclipse-workspace/gojekcompare/compare/pom.xml.
+2019-04-27 15:11:57,090 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /compare/src/main/java
+2019-04-27 15:11:57,093 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /compare/src/test/java
+2019-04-27 15:11:57,625 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-04-27 15:11:58,247 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:11:58,248 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/main/resources
+2019-04-27 15:11:58,249 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:11:58,249 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/test/resources
+2019-04-27 15:12:44,253 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:12:44,253 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/main/resources
+2019-04-27 15:12:44,254 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:12:44,254 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/test/resources
+2019-04-27 15:13:30,571 [Worker-10: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: gojek:compare:0.0.1-SNAPSHOT @ /Users/i340482/eclipse-workspace/gojekcompare/compare/pom.xml.
+2019-04-27 15:13:32,053 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/testng/testng/6.8/testng-6.8.pom
+2019-04-27 15:13:32,354 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/testng/testng/6.8/testng-6.8.pom
+2019-04-27 15:13:32,736 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/junit/junit/4.10/junit-4.10.pom
+2019-04-27 15:13:32,968 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/junit/junit/4.10/junit-4.10.pom
+2019-04-27 15:13:33,274 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2019-04-27 15:13:33,583 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2019-04-27 15:13:33,888 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2019-04-27 15:13:34,197 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2019-04-27 15:13:34,578 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/yaml/snakeyaml/1.6/snakeyaml-1.6.pom
+2019-04-27 15:13:34,811 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/yaml/snakeyaml/1.6/snakeyaml-1.6.pom
+2019-04-27 15:13:35,124 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/testng/testng/6.8/testng-6.8.jar
+2019-04-27 15:13:37,371 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/testng/testng/6.8/testng-6.8.jar
+2019-04-27 15:13:37,677 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/junit/junit/4.10/junit-4.10.jar
+2019-04-27 15:13:37,986 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/junit/junit/4.10/junit-4.10.jar
+2019-04-27 15:13:38,295 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+2019-04-27 15:13:38,601 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+2019-04-27 15:13:38,923 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar
+2019-04-27 15:13:39,216 [Worker-10: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar
+2019-04-27 15:13:39,369 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:13:39,369 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/main/resources
+2019-04-27 15:13:39,371 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:13:39,371 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/test/resources
+2019-04-27 15:13:40,804 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: gojek:compare:0.0.1-SNAPSHOT @ /Users/i340482/eclipse-workspace/gojekcompare/compare/pom.xml.
+2019-04-27 15:13:40,877 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/testng/testng/6.8/testng-6.8-sources.jar
+2019-04-27 15:13:41,012 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:13:41,012 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/main/resources
+2019-04-27 15:13:41,014 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 15:13:41,014 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i340482/eclipse-workspace/gojekcompare/compare/src/test/resources
+2019-04-27 15:13:43,413 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/testng/testng/6.8/testng-6.8-sources.jar
+2019-04-27 15:13:43,429 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.testng:testng:6.8
+2019-04-27 15:13:43,732 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/junit/junit/4.10/junit-4.10-sources.jar
+2019-04-27 15:13:44,230 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/junit/junit/4.10/junit-4.10-sources.jar
+2019-04-27 15:13:44,243 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.10
+2019-04-27 15:13:44,538 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar
+2019-04-27 15:13:44,846 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar
+2019-04-27 15:13:44,871 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-27 15:13:50,274 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/beanshell/bsh/2.0b4/bsh-2.0b4-sources.jar
+2019-04-27 15:13:50,784 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/public/org/beanshell/bsh/2.0b4/bsh-2.0b4-sources.jar
+2019-04-27 15:13:52,628 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.aws.ariba.com/libs-release-local/org/beanshell/bsh/2.0b4/bsh-2.0b4-sources.jar
+2019-04-27 15:13:58,464 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://registry.mo.sap.corp:80/libs-release/org/beanshell/bsh/2.0b4/bsh-2.0b4-sources.jar
+2019-04-27 15:14:00,015 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://registry.mo.sap.corp:80/libs-snapshot/org/beanshell/bsh/2.0b4/bsh-2.0b4-sources.jar
+2019-04-27 15:14:00,451 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/repositories/deploy.snapshots/org/beanshell/bsh/2.0b4/bsh-2.0b4-sources.jar
+2019-04-27 15:14:05,838 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.aws.ariba.com/libs-release/org/beanshell/bsh/2.0b4/bsh-2.0b4-sources.jar
+2019-04-27 15:14:05,846 [Worker-12: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.beanshell:bsh:2.0b4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.beanshell:bsh:jar:sources:2.0b4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-04-27 15:14:06,202 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/com/beust/jcommander/1.27/jcommander-1.27-sources.jar
+2019-04-27 15:14:06,863 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/com/beust/jcommander/1.27/jcommander-1.27-sources.jar
+2019-04-27 15:14:06,880 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.beust:jcommander:1.27
+2019-04-27 15:14:07,168 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/yaml/snakeyaml/1.6/snakeyaml-1.6-sources.jar
+2019-04-27 15:14:08,092 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/yaml/snakeyaml/1.6/snakeyaml-1.6-sources.jar
+2019-04-27 15:14:08,103 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.yaml:snakeyaml:1.6
+2019-04-27 15:14:09,126 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.testng:testng:6.8
+2019-04-27 15:14:09,128 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.10
+2019-04-27 15:14:09,129 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.1
+2019-04-27 15:14:14,579 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/beanshell/bsh/2.0b4/bsh-2.0b4-javadoc.jar
+2019-04-27 15:14:15,156 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/public/org/beanshell/bsh/2.0b4/bsh-2.0b4-javadoc.jar
+2019-04-27 15:14:16,691 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.aws.ariba.com/libs-release-local/org/beanshell/bsh/2.0b4/bsh-2.0b4-javadoc.jar
+2019-04-27 15:14:21,094 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://registry.mo.sap.corp:80/libs-release/org/beanshell/bsh/2.0b4/bsh-2.0b4-javadoc.jar
+2019-04-27 15:14:22,733 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://registry.mo.sap.corp:80/libs-snapshot/org/beanshell/bsh/2.0b4/bsh-2.0b4-javadoc.jar
+2019-04-27 15:14:23,348 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/repositories/deploy.snapshots/org/beanshell/bsh/2.0b4/bsh-2.0b4-javadoc.jar
+2019-04-27 15:14:26,522 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.aws.ariba.com/libs-release/org/beanshell/bsh/2.0b4/bsh-2.0b4-javadoc.jar
+2019-04-27 15:14:26,524 [Worker-7: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.beanshell:bsh:2.0b4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.beanshell:bsh:jar:javadoc:2.0b4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-04-27 15:14:26,527 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.beust:jcommander:1.27
+2019-04-27 15:14:26,529 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.yaml:snakeyaml:1.6
