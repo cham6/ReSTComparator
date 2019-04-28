@@ -36,7 +36,9 @@ public class RESTComparator implements IComparator {
 		this.file2 = file2; 
 	}
 	
-	
+	/**
+	 * Validates and returns the corresponding LineIterator objects for file1 and file2
+	 */
 	public List<LineIterator> getURLs() {
 		
 		try {
@@ -72,9 +74,14 @@ public class RESTComparator implements IComparator {
 		return null;
 	}
 	
-	
+	/**
+	 * Invoke the HTTP GET requests 
+	 * Compares the output of both the requests
+	 * Returns true if the responses are same. Else false. 
+	 * Returns null on any failure cases. 
+	 */
 	public Boolean compare(String url1, String url2) {
-		
+		System.out.println("========Compare Started===========");
 		 if(url1 == null || url2 == null) {
 			 System.out.println("Either or both of URLs are null. Cannot proceed with comparisions. ");
 			 return null;
@@ -160,7 +167,7 @@ public class RESTComparator implements IComparator {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
 		} finally {
-			//TO-DO
+			System.out.println("========Compare Done==============");
 		}
 		return false;
 	}

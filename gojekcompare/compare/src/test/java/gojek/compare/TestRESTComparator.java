@@ -72,6 +72,9 @@ public class TestRESTComparator {
 		Assert.assertNull(urlLists);
 	}	
 	
+	/**
+	 * Test the compare method when the status codes are different.
+	 */
 	@Test
 	public void testCompareWithDifferentStatusCode() {
 		
