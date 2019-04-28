@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.LineIterator;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
@@ -36,7 +37,7 @@ public class RESTComparator implements IComparator {
 	}
 	
 	
-	public List<List<String>> getURLs() {
+	public List<LineIterator> getURLs() {
 		
 		try {
 			if((file1 == null) || (file2 == null)) {
@@ -51,23 +52,14 @@ public class RESTComparator implements IComparator {
 				return null;
 			}
 			
-			List<String> file1URLs = new ArrayList<String>();
-			List<String> file2URLs = new ArrayList<String>();
+			LineIterator firstFileLineIterator = FileUtils.lineIterator(file1, "UTF-8");
+			LineIterator secondFileLineIterator = FileUtils.lineIterator(file2, "UTF-8");
 			
 			
-			for(int i=0; i<10; i++) {
-				file1URLs = Files.readLines(file1, Charsets.UTF_8);
-			}
-			
-			for(int i=0; i<10; i++) {
-				file2URLs = Files.readLines(file2, Charsets.UTF_8);
-			}
-			
-			
-			List<List<String>> urlList = new ArrayList<List<String>>();
-			urlList.add(file1URLs);
-			urlList.add(file2URLs);
-			return urlList;
+			List<LineIterator> lineIteratorList = new ArrayList<LineIterator>();
+			lineIteratorList.add(firstFileLineIterator);
+			lineIteratorList.add(secondFileLineIterator);
+			return lineIteratorList;
 			
 		} catch(Exception e) {
 			System.out.println("An exception has occurred in getURLs method.");

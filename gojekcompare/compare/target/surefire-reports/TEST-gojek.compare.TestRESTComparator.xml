@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="gojek.compare.TestRESTComparator" time="0.987" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="gojek.compare.TestRESTComparator" time="1.094" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
@@ -64,13 +64,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithDifferentBody" time="0.899"/>
+  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithDifferentBody" time="1.01"/>
   <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithDifferentHeader" time="0.022"/>
-  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithDifferentStatusCode" time="0.025"/>
-  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithSameBody" time="0.022"/>
-  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithSameStatusCode" time="0.018"/>
-  <testcase classname="gojek.compare.TestRESTComparator" name="testNullFiles" time="0.001"/>
+  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithDifferentStatusCode" time="0.023"/>
+  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithSameBody" time="0.019"/>
+  <testcase classname="gojek.compare.TestRESTComparator" name="testCompareWithSameStatusCode" time="0.019"/>
   <testcase classname="gojek.compare.TestRESTComparator" name="testNullFiles" time="0"/>
+  <testcase classname="gojek.compare.TestRESTComparator" name="testNullFiles" time="0.001"/>
   <testcase classname="gojek.compare.TestRESTComparator" name="testNullFiles" time="0"/>
   <testcase classname="gojek.compare.TestRESTComparator" name="testNullFiles" time="0"/>
 </testsuite>

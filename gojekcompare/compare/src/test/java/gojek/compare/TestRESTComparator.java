@@ -4,6 +4,7 @@ package gojek.compare;
 import java.io.File;
 import java.util.List;
 
+import org.apache.commons.io.LineIterator;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -67,7 +68,7 @@ public class TestRESTComparator {
 	@Test(dataProvider="nullEmptyFileProvider")
 	public void testNullFiles(File firstFile, File secondFile) {
 		RESTComparator comparator = new RESTComparator(firstFile, secondFile);
-		List<List<String>> urlLists = comparator.getURLs();
+		List<LineIterator> urlLists = comparator.getURLs();
 		Assert.assertNull(urlLists);
 	}	
 	

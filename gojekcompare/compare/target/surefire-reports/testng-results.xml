@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="gojek.compare.TestRESTComparator" duration-ms="1157" started-at="2019-04-27T18:37:33Z" finished-at="2019-04-27T18:37:34Z">
+  <suite name="gojek.compare.TestRESTComparator" duration-ms="1309" started-at="2019-04-28T06:54:40Z" finished-at="2019-04-28T06:54:41Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="1157" started-at="2019-04-27T18:37:33Z" finished-at="2019-04-27T18:37:34Z">
+    <test name="Command line test" duration-ms="1309" started-at="2019-04-28T06:54:40Z" finished-at="2019-04-28T06:54:41Z">
       <class name="gojek.compare.TestRESTComparator">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="setUp" is-config="true" duration-ms="157" started-at="2019-04-28T00:07:33Z" finished-at="2019-04-28T00:07:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="setUp" is-config="true" duration-ms="194" started-at="2019-04-28T12:24:40Z" finished-at="2019-04-28T12:24:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCompareWithDifferentBody()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithDifferentBody" duration-ms="898" started-at="2019-04-28T00:07:33Z" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testCompareWithDifferentBody()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithDifferentBody" duration-ms="1010" started-at="2019-04-28T12:24:40Z" finished-at="2019-04-28T12:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompareWithDifferentBody -->
-        <test-method status="PASS" signature="testCompareWithDifferentHeader()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithDifferentHeader" duration-ms="23" started-at="2019-04-28T00:07:34Z" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testCompareWithDifferentHeader()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithDifferentHeader" duration-ms="24" started-at="2019-04-28T12:24:41Z" finished-at="2019-04-28T12:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompareWithDifferentHeader -->
-        <test-method status="PASS" signature="testCompareWithDifferentStatusCode()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithDifferentStatusCode" duration-ms="25" started-at="2019-04-28T00:07:34Z" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testCompareWithDifferentStatusCode()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithDifferentStatusCode" duration-ms="22" started-at="2019-04-28T12:24:41Z" finished-at="2019-04-28T12:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompareWithDifferentStatusCode -->
-        <test-method status="PASS" signature="testCompareWithSameBody()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithSameBody" duration-ms="22" started-at="2019-04-28T00:07:34Z" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testCompareWithSameBody()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithSameBody" duration-ms="19" started-at="2019-04-28T12:24:41Z" finished-at="2019-04-28T12:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompareWithSameBody -->
-        <test-method status="PASS" signature="testCompareWithSameStatusCode()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithSameStatusCode" duration-ms="17" started-at="2019-04-28T00:07:34Z" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testCompareWithSameStatusCode()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testCompareWithSameStatusCode" duration-ms="19" started-at="2019-04-28T12:24:41Z" finished-at="2019-04-28T12:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompareWithSameStatusCode -->
-        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T00:07:34Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T12:24:41Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T12:24:41Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNullFiles -->
-        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T00:07:34Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T12:24:41Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T12:24:41Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNullFiles -->
-        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T00:07:34Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T12:24:41Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T12:24:41Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNullFiles -->
-        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T00:07:34Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="testNullFiles(java.io.File, java.io.File)[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="testNullFiles" duration-ms="0" started-at="2019-04-28T12:24:41Z" data-provider="nullEmptyFileProvider" finished-at="2019-04-28T12:24:41Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNullFiles -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="tearDown" is-config="true" duration-ms="5" started-at="2019-04-28T00:07:34Z" finished-at="2019-04-28T00:07:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gojek.compare.TestRESTComparator@1554909b]" name="tearDown" is-config="true" duration-ms="11" started-at="2019-04-28T12:24:41Z" finished-at="2019-04-28T12:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
