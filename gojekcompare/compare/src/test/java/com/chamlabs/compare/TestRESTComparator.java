@@ -1,4 +1,4 @@
-package gojek.compare;
+package com.chamlabs.compare;
 
 
 import java.io.File;
@@ -14,6 +14,8 @@ import static com.xebialabs.restito.builder.stub.StubHttp.whenHttp;
 import static com.xebialabs.restito.semantics.Action.status;
 import static com.xebialabs.restito.semantics.Condition.post;
 import static com.xebialabs.restito.semantics.Condition.get;
+
+import com.chamlabs.compare.RESTComparator;
 import com.xebialabs.restito.server.StubServer;
 import static org.glassfish.grizzly.http.util.HttpStatus.ACCEPTED_202;
 import static org.glassfish.grizzly.http.util.HttpStatus.NOT_FOUND_404;

@@ -1,4 +1,4 @@
-package gojek.compare;
+package com.chamlabs.compare;
 
 import java.io.File;
 import java.util.List;
